@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+._*
+# 项目产物不进仓库
+work/
+output/
+assets/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.ttf
+*.otf

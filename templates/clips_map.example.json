@@ -1,0 +1,7 @@
+{
+  "_说明": "名称 → 视频素材。字符串 = Mixkit id（assets/stock/<id>.mp4，用 scripts/stock.py 下载）；对象 = {file: 相对项目的路径, vf: 自定义 ffmpeg 滤镜}。名称在 comp.js 里用。",
+  "net":   "31539",
+  "cubes": "31497",
+  "laptop": "9173",
+  "_官方竖屏演示示例": {"file": "assets/official/demo.mp4", "vf": "crop=400:836:280:0,scale=480:-2"}
+}
