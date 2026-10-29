@@ -30,11 +30,6 @@ Agent 会读取 Skill 的流程和规则，检查环境，处理视频并整理�
 | whisper.cpp 与 `ggml-large-v3-turbo-q5_0.bin` 模型 | 本地语音转写 | macOS：`brew install whisper-cpp`；模型放入 `~/.cache/whisper/`，或设置 `WHISPER_MODEL` 指向模型文件 |
 | Python 3.10+、Playwright、Chromium | 逐帧渲染包装与网页截图 | `python3 -m pip install playwright && python3 -m playwright install chromium` |
 
-## 限制
-
-- 剪映草稿导出目前只在 macOS 版剪映专业版验证过，其他系统尚未验证。
-- 成片流程也尚未在其他操作系统上完成验证。
-
 ## 联系方式
 
 如有问题、建议或功能需求，欢迎通过邮箱联系：[whitemoww@gmail.com](mailto:whitemoww@gmail.com)。
